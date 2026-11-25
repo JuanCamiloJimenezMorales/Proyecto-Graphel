@@ -15,6 +15,7 @@ nav{
 .titulo{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 ul{
     display: flex;
@@ -76,7 +77,6 @@ h1{
     border:none;
     padding:0 10px;
     font-size:14px;
-    outline:none;
     background-color:#fff;
 }
 .formulario button{
@@ -94,7 +94,7 @@ h1{
     align-items: center;
     width: 100%;
 }
-img{
+.img-index{
     height: 15vh;
 }
 .columnas-tec{
@@ -111,3 +111,122 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+a{
+    text-decoration: none;
+}
+
+.centro-nosotros{
+    display: flex;
+    width: 100%;
+    height: 64vh;
+    justify-content: space-evenly;
+}
+.sobre-nosotros{
+    width: 50%;
+    height: 60vh;
+}
+.hacemos{
+    margin-top: 20px;
+    width: 25%;
+    height: 25vh;
+    background-color: rgb(58, 58, 58);
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.img-nosotros{
+    margin-top: 10px;
+}
+.color{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+    padding: 10px;
+}
+.imagen-nos{
+    width: 103vh;
+    height: 20vh;
+}
+
+.centro-servicios{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    justify-content: space-evenly;
+}
+.servicios{
+    background-color: rgb(205, 205, 205);
+    padding: 8px 20px;
+    margin-bottom: 5px;
+}
+.contacto{
+    display: flex;
+    width: 100%;
+    height: 86vh;
+    justify-content: space-between;
+    padding: 0 0 0 80px;
+}
+
+.formularios-contacto{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formularios-contacto label{
+    margin-top: 15px;
+}
+
+.formularios-contacto input{
+    height: 30px;
+}
+
+.formularios-contacto textarea{
+    height: 150px;
+}
+
+.formularios-contacto button{
+    margin-top: 8px;
+    height:40px;
+    border:none;
+    background-color:#f26522;
+    color:white;
+    font-size:14px;
+}
+
+.segunda-caja{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 60px;
+    width: 50%;
+}
+
+.hacemos-contacto{
+    margin-top: 20px;
+    width: 55%;
+    height: 25vh;
+    background-color: rgb(58, 58, 58);
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mapa{
+    width: 390px;
+    height:285px;
+    margin-top: 8px;
+}
+
+
+
+
